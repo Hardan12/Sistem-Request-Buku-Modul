@@ -1,0 +1,89 @@
+body {
+   
+
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 16px;
+    width: 90%;
+    max-width: 600px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.form-container:hover {
+    transform: scale(1.02);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #009688;
+    font-weight: 700;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group button {
+    width: 48%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-group button:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background-color: #009688;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+}
+
+.btn-third {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.toast {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    min-width: 200px;
+    z-index: 1000;
+}
